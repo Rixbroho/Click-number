@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+}
+
+#game{
+    display: grid;
+    grid-template-columns:repeat(5,1fr) ;
+    gap:10px;
+}
+
+#game>button{
+    height: 40px;
+    font-size: large;
+}
+
+.off{
+    display:none;
+}
